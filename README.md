@@ -61,6 +61,9 @@ Enter a Quantity
 
 Click Save Transaction
 
+
+Inventory tracker working with sample data
+
 Inventory quantity updates automatically
 
 Errors appear if inputs are missing or stock is insufficient
