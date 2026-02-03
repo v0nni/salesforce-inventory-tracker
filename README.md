@@ -1,71 +1,62 @@
 Salesforce Inventory Tracker (Starter Project)
-Overview
 
-This is a starter Salesforce project to track inventory transactions. It uses:
+A beginner-friendly Salesforce project for tracking inventory transactions using Custom Objects, Apex, and Visualforce.
 
-Custom Objects:
+This project is designed as a learning tool for understanding how data flows through Salesforce—from UI to controller to database—while handling validation and business logic.
 
-Inventory_Item__c — holds items and their current quantity
+📦 Features
 
-Inventory_Transaction__c — logs stock in, stock out, and adjustments
+Track inventory quantities in real time
 
-Visualforce Page:
+Log stock movements (in, out, adjustments)
 
-A simple form to record transactions
+Validate transactions before saving
 
-Picklists for selecting Inventory Items and Transaction Type
+Display current inventory levels in a table
 
-Quantity input
-
-Apex Controller:
-
-Handles saving transactions
-
-Updates inventory quantities
-
-Validates inputs and displays errors
-
-This project is intended as a learning tool for Apex, Visualforce, and custom objects in Salesforce.
-
-Setup Instructions
-
-Clone this repository to your Salesforce project folder.
-
-Deploy the Custom Objects:
+🧱 Architecture Overview
+Custom Objects
 
 Inventory_Item__c
 
+Stores inventory items
+
+Tracks current quantity on hand
+
 Inventory_Transaction__c
 
-Deploy Apex Controller: InventoryController
+Records inventory changes
 
-Deploy Visualforce Page: InventoryTransactionPage
+Supports stock in, stock out, and adjustments
 
-Add Inventory Items:
+Visualforce Page
 
-Go to Setup → Object Manager → Inventory Item → Inventory Items → New
+Simple transaction entry form
 
-Add a few items with names and starting quantities
+Picklists for:
 
-Access the page:
+Inventory Item
 
-Navigate to the Visualforce page in your org to test transactions
+Transaction Type
 
-How It Works
+Quantity input field
 
-Select an Inventory Item
+Displays:
 
-Choose a Transaction Type: Stock In, Stock Out, Adjustment
+Error messages
 
-Enter a Quantity
+Current inventory table with quantities
 
-Click Save Transaction
+Apex Controller
 
+Saves inventory transactions
 
-Inventory tracker working with sample data
+Updates item quantities automatically
 
-Inventory quantity updates automatically
+Validates:
 
-Errors appear if inputs are missing or stock is insufficient
+Required fields
 
-The page also displays a table of current inventory items and their quantities.
+Sufficient stock for stock-out transactions
+
+Returns user-friendly error messages
