@@ -3,7 +3,7 @@ Salesforce Inventory Tracker (Starter Project)
 A beginner-friendly Salesforce project for tracking inventory transactions using Custom Objects, Apex, and Visualforce.
 
 This project is designed as a learning tool for understanding how data flows through Salesforce—from UI to controller to database—while handling validation and business logic.
-<img width="1536" height="1024" alt="inventoryTracker" src="https://github.com/user-attachments/assets/08bc682c-1a7e-4189-9e0d-b82d90bd1fa2" />
+<img width="536" height="424" alt="inventoryTracker" src="https://github.com/user-attachments/assets/08bc682c-1a7e-4189-9e0d-b82d90bd1fa2" />
 
 
 📦 Features
